@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="2dp"
+    android:padding="4dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:background="@color/white">
+    
+    <ImageView
+        android:id="@+id/productImg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asics Shoes"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/productPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs 17999"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/productDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asics Shoes is most Comfortable Shoes"
+            android:textSize="18sp"
+            android:typeface="serif"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
