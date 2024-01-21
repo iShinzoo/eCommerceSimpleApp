@@ -19,7 +19,7 @@
     <ImageView
         android:id="@+id/productImg"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="300dp"
         android:src="@drawable/ic_launcher_background"
         android:scaleType="fitXY"/>
 
@@ -55,7 +55,8 @@
             android:textSize="18sp"
             android:typeface="serif"
             android:layout_marginTop="12dp"
-            android:layout_marginStart="8dp"/>
+            android:layout_marginStart="8dp"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 

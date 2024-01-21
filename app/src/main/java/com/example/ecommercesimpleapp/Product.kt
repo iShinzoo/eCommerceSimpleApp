@@ -1,8 +1,8 @@
 package com.example.ecommercesimpleapp
 
 class Product(
-    val ProductName : String = "",
-    val ProductPrice : String = "",
-    val ProductDesc : String = "",
-    val ProductImg : String = ""
+    var ProductName : String = "",
+    var ProductPrice : String = "",
+    var ProductDesc : String = "",
+    var ProductImage : String = ""
     )
